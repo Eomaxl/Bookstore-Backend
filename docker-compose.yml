@@ -15,7 +15,8 @@ services:
     # ⚠️ - Do no store plaintext passwords in source control. We
     #      do so here as this is a tutorial.
     environment:
-      POSTGRES_PASSWORD: changemeinprod!
+    #  POSTGRES_PASSWORD: changemeinprod!
+      POSTGRES_PASSWORD: admin@1234
   adminer:
     # The Docker image for Adminer, again using the latest.
     image: adminer:latest
